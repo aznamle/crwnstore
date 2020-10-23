@@ -1,5 +1,9 @@
+import { UserActionTypes } from './user.types';
+import { userActionTypes } from './users.types'
+
 //gets 2 properties: last state or initial state
 //receives an action that has a type such as string value
+
 
 const INITIAL_STATE = {
     currentUser: null
@@ -11,7 +15,7 @@ const INITIAL_STATE = {
 const userReducer = (state = INITIAL_STATE, action) => {
     //depending on the type of action, if match, then return new object out of reducer function
     switch(action.type) {
-        case 'SET_CURRENT_USER':
+        case UserActionTypes.SET_CURRENT_USER:
             return {
                 ...state,
                 currentUser: action.payload
