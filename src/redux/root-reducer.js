@@ -2,10 +2,11 @@
 //combines all other states together
 
 import { combineReducers } from 'redux';
-
-import userReducer from './user/user.reducer'
+import userReducer from './user/user.reducer';
+import cartReducer from './cart/carts.reducer';
 
 export default combineReducers ({
     //object user that points to userReducer js file
-    user: userReducer
+    user: userReducer,
+    cart: cartReducer
 });
