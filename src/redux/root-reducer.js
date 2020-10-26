@@ -9,4 +9,4 @@ export default combineReducers ({
     //object user that points to userReducer js file
     user: userReducer,
     cart: cartReducer
-});
+}); 
