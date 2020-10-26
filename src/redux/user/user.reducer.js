@@ -1,5 +1,4 @@
 import { UserActionTypes } from './user.types';
-import { userActionTypes } from './users.types'
 
 //gets 2 properties: last state or initial state
 //receives an action that has a type such as string value
