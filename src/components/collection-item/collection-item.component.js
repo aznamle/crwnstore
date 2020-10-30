@@ -39,6 +39,6 @@ const mapDispatchtoProps = dispatch => ({
 })
 
 export default connect(
-    null, 
+    null,
     mapDispatchtoProps)
     (CollectionItem)
