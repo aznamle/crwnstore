@@ -11,13 +11,13 @@
 1. Clone the project
 
    ```sh
-   git clone https://github.com/aznamle/E-commerce-project.git
+   git clone https://github.com/aznamle/crwnstore.git
    ```
 
 1. Install the dependencies
 
    ```sh
-   cd E-commerce-project
+   cd crwnstore
    npm install
    ```
 
